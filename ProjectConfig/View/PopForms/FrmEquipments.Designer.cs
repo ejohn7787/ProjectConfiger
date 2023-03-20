@@ -37,12 +37,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmb_ProtocalType = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.grb_Internet = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txt_Port = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txt_IPAddress = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grb_SerialPort = new System.Windows.Forms.GroupBox();
             this.cmb_StopBit = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cmb_Parity = new System.Windows.Forms.ComboBox();
@@ -51,7 +51,7 @@
             this.cmb_SerialNumber = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.grb_OPC = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txt_OPCServerName = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -60,9 +60,9 @@
             this.txt_Comment = new System.Windows.Forms.TextBox();
             this.chk_isEnable = new System.Windows.Forms.CheckBox();
             this.cmb_EquipmentType = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.grb_Internet.SuspendLayout();
+            this.grb_SerialPort.SuspendLayout();
+            this.grb_OPC.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_SaveDevice
@@ -151,19 +151,19 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "协议类型：";
             // 
-            // groupBox1
+            // grb_Internet
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.txt_Port);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txt_IPAddress);
-            this.groupBox1.Location = new System.Drawing.Point(12, 94);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(728, 82);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "以太网配置";
+            this.grb_Internet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grb_Internet.Controls.Add(this.label7);
+            this.grb_Internet.Controls.Add(this.txt_Port);
+            this.grb_Internet.Controls.Add(this.label6);
+            this.grb_Internet.Controls.Add(this.txt_IPAddress);
+            this.grb_Internet.Location = new System.Drawing.Point(12, 94);
+            this.grb_Internet.Name = "grb_Internet";
+            this.grb_Internet.Size = new System.Drawing.Size(728, 82);
+            this.grb_Internet.TabIndex = 12;
+            this.grb_Internet.TabStop = false;
+            this.grb_Internet.Text = "以太网配置";
             // 
             // label7
             // 
@@ -201,23 +201,23 @@
             this.txt_IPAddress.Size = new System.Drawing.Size(253, 26);
             this.txt_IPAddress.TabIndex = 8;
             // 
-            // groupBox2
+            // grb_SerialPort
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.groupBox2.Controls.Add(this.cmb_StopBit);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.cmb_Parity);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.cmb_Baudrate);
-            this.groupBox2.Controls.Add(this.cmb_SerialNumber);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(12, 182);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(728, 82);
-            this.groupBox2.TabIndex = 13;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "串口配置";
+            this.grb_SerialPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grb_SerialPort.Controls.Add(this.cmb_StopBit);
+            this.grb_SerialPort.Controls.Add(this.label11);
+            this.grb_SerialPort.Controls.Add(this.cmb_Parity);
+            this.grb_SerialPort.Controls.Add(this.label10);
+            this.grb_SerialPort.Controls.Add(this.cmb_Baudrate);
+            this.grb_SerialPort.Controls.Add(this.cmb_SerialNumber);
+            this.grb_SerialPort.Controls.Add(this.label8);
+            this.grb_SerialPort.Controls.Add(this.label9);
+            this.grb_SerialPort.Location = new System.Drawing.Point(12, 182);
+            this.grb_SerialPort.Name = "grb_SerialPort";
+            this.grb_SerialPort.Size = new System.Drawing.Size(728, 82);
+            this.grb_SerialPort.TabIndex = 13;
+            this.grb_SerialPort.TabStop = false;
+            this.grb_SerialPort.Text = "串口配置";
             // 
             // cmb_StopBit
             // 
@@ -299,19 +299,19 @@
             this.label9.TabIndex = 9;
             this.label9.Text = "串口号：";
             // 
-            // groupBox3
+            // grb_OPC
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.txt_OPCServerName);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.txt_OPCNodeName);
-            this.groupBox3.Location = new System.Drawing.Point(12, 270);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(728, 82);
-            this.groupBox3.TabIndex = 14;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "OPC配置";
+            this.grb_OPC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grb_OPC.Controls.Add(this.label12);
+            this.grb_OPC.Controls.Add(this.txt_OPCServerName);
+            this.grb_OPC.Controls.Add(this.label13);
+            this.grb_OPC.Controls.Add(this.txt_OPCNodeName);
+            this.grb_OPC.Location = new System.Drawing.Point(12, 270);
+            this.grb_OPC.Name = "grb_OPC";
+            this.grb_OPC.Size = new System.Drawing.Size(728, 82);
+            this.grb_OPC.TabIndex = 14;
+            this.grb_OPC.TabStop = false;
+            this.grb_OPC.Text = "OPC配置";
             // 
             // label12
             // 
@@ -386,7 +386,6 @@
             this.cmb_EquipmentType.Name = "cmb_EquipmentType";
             this.cmb_EquipmentType.Size = new System.Drawing.Size(253, 28);
             this.cmb_EquipmentType.TabIndex = 18;
-           
             // 
             // FrmEquipments
             // 
@@ -397,9 +396,9 @@
             this.Controls.Add(this.chk_isEnable);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txt_Comment);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grb_OPC);
+            this.Controls.Add(this.grb_SerialPort);
+            this.Controls.Add(this.grb_Internet);
             this.Controls.Add(this.cmb_ProtocalType);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -417,12 +416,12 @@
             this.Name = "FrmEquipments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "设备管理";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.grb_Internet.ResumeLayout(false);
+            this.grb_Internet.PerformLayout();
+            this.grb_SerialPort.ResumeLayout(false);
+            this.grb_SerialPort.PerformLayout();
+            this.grb_OPC.ResumeLayout(false);
+            this.grb_OPC.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -438,12 +437,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmb_ProtocalType;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox grb_Internet;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txt_Port;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_IPAddress;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grb_SerialPort;
         private System.Windows.Forms.ComboBox cmb_StopBit;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cmb_Parity;
@@ -452,7 +451,7 @@
         private System.Windows.Forms.ComboBox cmb_SerialNumber;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox grb_OPC;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txt_OPCServerName;
         private System.Windows.Forms.Label label13;

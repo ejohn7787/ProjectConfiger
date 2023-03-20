@@ -136,7 +136,11 @@ namespace ProjectConfig.View
 
         private void btn_AddEquipment_Click(object sender, EventArgs e)
         {
-            FrmEquipments frmEquipments = new FrmEquipments();
+            //获取当前选择的ID号
+            int pid = Convert.ToInt32(dgv_Projects.CurrentRow.Cells["ProjectId"].Value);
+            //查找
+            Projects project = projects.Where(p => p.ProjectId == pid).ToList()[0];
+            FrmEquipments frmEquipments = new FrmEquipments(project);
             DialogResult dialogResult = frmEquipments.ShowDialog();
         }
     }
