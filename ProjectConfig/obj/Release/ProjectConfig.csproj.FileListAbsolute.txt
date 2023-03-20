@@ -1,0 +1,11 @@
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\bin\Release\ProjectConfig.exe.config
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\bin\Release\ProjectConfig.exe
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\bin\Release\ProjectConfig.pdb
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.csproj.AssemblyReference.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.csproj.SuggestedBindingRedirects.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.Properties.Resources.resources
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.View.PopForms.FrmLoginAdmin.resources
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.csproj.GenerateResource.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.csproj.CoreCompileInputs.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.exe
+D:\Sample\上位机\FSCADA\上位机项目配置软件\ProjectConfig\obj\Release\ProjectConfig.pdb

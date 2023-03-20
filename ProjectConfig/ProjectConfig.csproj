@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{565EAE6C-606C-45EE-BED6-70480537987E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectConfig</RootNamespace>
+    <AssemblyName>ProjectConfig</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\PopForms\FrmAddCommGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmAddCommGroup.Designer.cs">
+      <DependentUpon>FrmAddCommGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopForms\FrmEquipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmEquipments.Designer.cs">
+      <DependentUpon>FrmEquipments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopForms\FrmModifyCommGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmModifyCommGroup.Designer.cs">
+      <DependentUpon>FrmModifyCommGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopForms\FrmProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmProjects.Designer.cs">
+      <DependentUpon>FrmProjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopForms\FrmLoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmLoginAdmin.Designer.cs">
+      <DependentUpon>FrmLoginAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopForms\FrmVariables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopForms\FrmVariables.Designer.cs">
+      <DependentUpon>FrmVariables.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmAddCommGroup.resx">
+      <DependentUpon>FrmAddCommGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmEquipments.resx">
+      <DependentUpon>FrmEquipments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmModifyCommGroup.resx">
+      <DependentUpon>FrmModifyCommGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmProjects.resx">
+      <DependentUpon>FrmProjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmLoginAdmin.resx">
+      <DependentUpon>FrmLoginAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PopForms\FrmVariables.resx">
+      <DependentUpon>FrmVariables.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\Add.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\bg_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Img\manage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormMoveByMouse\FormMoveByMouse.csproj">
+      <Project>{40fa3680-fa16-486c-a125-6397632fb709}</Project>
+      <Name>FormMoveByMouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\zj.BLL\zj.BLL.csproj">
+      <Project>{fe388a3d-fee1-4cfb-a4c8-2f3a9abe3cad}</Project>
+      <Name>zj.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\zj.Common\zj.Common.csproj">
+      <Project>{332b9d47-eaff-474b-995e-082ce2ec8cee}</Project>
+      <Name>zj.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\zj.Models\zj.Models.csproj">
+      <Project>{2FE55F85-49F7-45A0-B726-8C86826173A7}</Project>
+      <Name>zj.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\Add.bmp" />
+    <Content Include="img\add.gif" />
+    <Content Include="img\AddNew.ico" />
+    <Content Include="img\DataBase.ico" />
+    <Content Include="img\delete.gif" />
+    <Content Include="img\delete.ico" />
+    <Content Include="img\edit.gif" />
+    <Content Include="img\manage.gif" />
+    <Content Include="img\Save.ico" />
+    <Content Include="img\SysIco.ico" />
+    <Content Include="img\update.ico" />
+    <Content Include="Note.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

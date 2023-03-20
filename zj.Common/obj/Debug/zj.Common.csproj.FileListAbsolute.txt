@@ -1,0 +1,6 @@
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\bin\Debug\zj.Common.dll
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\bin\Debug\zj.Common.pdb
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\obj\Debug\zj.Common.csproj.AssemblyReference.cache
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\obj\Debug\zj.Common.csproj.CoreCompileInputs.cache
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\obj\Debug\zj.Common.dll
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Common\obj\Debug\zj.Common.pdb

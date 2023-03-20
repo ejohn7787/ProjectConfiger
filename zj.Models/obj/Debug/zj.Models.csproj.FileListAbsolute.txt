@@ -1,0 +1,12 @@
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\bin\Debug\zj.Models.dll
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\bin\Debug\zj.Models.pdb
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.csproj.AssemblyReference.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.csproj.CoreCompileInputs.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.dll
+D:\Sample\上位机\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.pdb
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.csproj.AssemblyReference.cache
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.csproj.CoreCompileInputs.cache
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.dll
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\obj\Debug\zj.Models.pdb
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\bin\Debug\zj.Models.dll
+D:\Sample\SCADA\FSCADA\上位机项目配置软件\zj.Models\bin\Debug\zj.Models.pdb

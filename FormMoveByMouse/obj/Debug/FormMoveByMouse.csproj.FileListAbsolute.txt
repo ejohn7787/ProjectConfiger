@@ -1,0 +1,6 @@
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\bin\Debug\FormMoveByMouse.dll
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\bin\Debug\FormMoveByMouse.pdb
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\obj\Debug\FormMoveByMouse.csproj.AssemblyReference.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\obj\Debug\FormMoveByMouse.csproj.CoreCompileInputs.cache
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\obj\Debug\FormMoveByMouse.dll
+D:\Sample\上位机\FSCADA\上位机项目配置软件\FormMoveByMouse\obj\Debug\FormMoveByMouse.pdb
